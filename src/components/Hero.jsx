@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
       </div>
       {/* Banner  */}
-      <div className="p-1">
+      <div className="hidden sm:inline-flex p-1">
         <img
           src="./images/hero-banner.jpg"
           fill

@@ -3,9 +3,9 @@ import NavbarItem from "./NavbarItem";
 
 const Navbar = () => {
   return (
-    <nav className="flex flex-col sm:flex-row justify-between items-center h-auto  py-5 mx-10">
+    <nav className="flex justify-between items-center h-auto  py-5 mx-10">
       <div className="text-3xl">DocBook</div>
-      <div className="flex flex-grow">
+      <div className="hidden sm:flex flex-grow">
         <ul className="flex ml-auto">
           <NavbarItem title="Home" />
           <NavbarItem title="Doctors" />
