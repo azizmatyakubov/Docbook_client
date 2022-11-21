@@ -8,9 +8,9 @@ const SearchBox = () => {
   const icon = <CheckBadgeIcon className="w-[23px]" />;
 
   return (
-    <div className="w-[1100px] h-36 bg-slate-50 z-100 absolute top-8 rounded-md shadow-md py-2 px-5">
-      <div className="flex items-center">
-        <h1 className="text-2xl flex-grow">Book appointment now</h1>
+    <div className="max-w-[100%] h-auto bg-slate-300 z-100 rounded-md shadow-md py-2 px-5 mr-3">
+      <div className="sm:flex items-center">
+        <h1 className="text-1xl md:text-2xl flex-grow font-medium">DocBook</h1>
         {/* categories  */}
         <SearchBoxCategory
           active={active}
@@ -43,7 +43,7 @@ const SearchBox = () => {
         <input
           type="text"
           placeholder="Search by doctor name, specialty, hospital, etc"
-          className="w-full h-12 px-4 rounded-md border border-slate-200 focus:outline-none focus:border-purple-600"
+          className="w-full h-12 px-4 mr-3 rounded-md border border-slate-200 focus:outline-none focus:border-purple-600"
         />
         <input
           type="text"
